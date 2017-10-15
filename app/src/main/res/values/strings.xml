@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name = "app_name"> IP v4/v6 Calculator </string>
+     <string name = "app"> IPv4/v6</string>
+     <string name = "main_ip_adress"> IP address </string>
+     <string name = "main_maska_podseti"> Subnet Mask: </string>
+     <string name = "main_broadcast"> Broadcast address: </string>
+     <string name = "main_podset"> Network: </string>
+     <string name = "main_ip_count"> The number of IP addresses: </string>
+     <string name = "main_first_host"> First IP address: </string>
+     <string name = "main_last_host"> Last IP address: </string>
+     <string name = "main_host_count"> Number of users: </string>
+     <string name="message_mask_error">The value of the subnet is too large.</string>
+     <string name="message_clipboard_copy">copied to clipboard.</string>
+     <string name="message_wrong_enter_ip">Error in IP address.</string>
+</resources>

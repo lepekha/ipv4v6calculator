@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ipv4"
+        android:title="IPv4"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/ipv6"
+        android:checkable="true"
+        android:title="IPv6"
+        app:showAsAction="always|withText" />
+
+</menu>

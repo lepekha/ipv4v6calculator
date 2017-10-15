@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_name"> Kalkulačka IP v4/v6 </string>
+    <string name = "main_ip_adress"> adresa IP </string>
+    <string name = "main_maska_podseti"> Maska podsítě: </string>
+    <string name = "main_broadcast"> Adresa vysílání: </string>
+    <string name = "main_podset"> Subnet: </string>
+    <string name = "main_ip_count"> Počet adres IP: </string>
+    <string name = "main_first_host"> První adresa IP: </string>
+    <string name = "main_last_host"> Poslední adresa IP: </string>
+    <string name = "main_host_count"> Počet uživatelů: </string>
+</resources>

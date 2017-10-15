@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+         <string name = "app_name"> IP v4/v6 Калькулятор </string>
+         <string name = "main_ip_adress"> IP адреса </string>
+         <string name = "main_maska_podseti"> Маска підмережі: </string>
+         <string name = "main_broadcast"> Широкомовний адрес: </string>
+         <string name = "main_podset"> Підмережа: </string>
+         <string name = "main_ip_count"> Кількість IP адрес: </string>
+         <string name = "main_first_host"> Перший IP адрес: </string>
+         <string name = "main_last_host"> Останній IP адрес: </string>
+         <string name = "main_host_count"> Кількість користувачів: </string>
+</resources>

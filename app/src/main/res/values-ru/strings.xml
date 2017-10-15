@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IP v4/v6 Калькулятор</string>
+    <string name="main_ip_adress">IP адресс</string>
+    <string name="main_maska_podseti">Маска подсети:</string>
+    <string name="main_broadcast">Широковещательный адресс:</string>
+    <string name="main_podset">Подсеть:</string>
+    <string name="main_ip_count">Количество IP адрессов:</string>
+    <string name="main_first_host">Первый IP адресс:</string>
+    <string name="main_last_host">Последний IP адресс:</string>
+    <string name="main_host_count">Количество пользователей:</string>
+    <string name="message_mask_error">Слишком большое значение маски подсети.</string>
+    <string name="message_clipboard_copy">скопировано в буффер.</string>
+    <string name="message_wrong_enter_ip">Ошибка в IP адрессе.</string>
+</resources>
