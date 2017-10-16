@@ -17,6 +17,7 @@ public class ImplPreference implements Preference {
     private static final String APP_PREFERENCES_IP = "IP";
     private static final String APP_PREFERENCES_MASK = "Mask";
     private static final String APP_PREFERENCES_SEEK_BAR = "SeekBar";
+    private static final String APP_PREFERENCES_STANDART_IP = "192.168.0.1";
     private static final int IPV4_MAX_PROGRESS = 32;
     private static final int DEFAULT_MASK = 1;
 
@@ -39,7 +40,7 @@ public class ImplPreference implements Preference {
 
     @Override
     public String getIP() {
-         return mSettings.getString(APP_PREFERENCES_IP, "");
+         return mSettings.getString(APP_PREFERENCES_IP, APP_PREFERENCES_STANDART_IP);
     }
 
     @Override

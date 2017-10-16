@@ -57,14 +57,14 @@ public class ImplIpOperations implements IpOperations {
 
     @Override
     public void calcIPv6(int prefics) {
-        ipAddress.setIp(address.toFullString());
+        ipAddress.setIp(address.toCompressedString());
         ipAddress.setMask(maskWithPrefixLength.toString());
         ipAddress.setHosts_count(String.valueOf(subnet.getCount()));
-        ipAddress.setMaskWithoutPrefics(address.getNetwork().getNetworkMask(prefics, false).toFullString());
-        ipAddress.setFirst_host(subnet.getLowest().toFullString());
-        ipAddress.setLast_host(subnet.getHighest().toFullString());
+        ipAddress.setMaskWithoutPrefics(address.getNetwork().getNetworkMask(prefics, false).toCompressedString());
+        ipAddress.setFirst_host(subnet.getLowest().toCompressedString());
+        ipAddress.setLast_host(subnet.getHighest().toCompressedString());
         ipAddress.setBroadcast("N/A");
-        ipAddress.setNetwork(subnet.toSubnet(mask).toFullString());
+        ipAddress.setNetwork(subnet.toSubnet(mask).toCompressedString());
     }
 
 
